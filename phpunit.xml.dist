@@ -21,6 +21,11 @@
                 <directory suffix=".php">bin</directory>
             </exclude>
         </whitelist>
+        <blacklist>
+            <directory>tests</directory>
+            <directory>vendor</directory>
+            <directory>bin</directory>
+        </blacklist>
     </filter>
     <logging>
         <log type="junit" target="build/report.junit.xml"/>
