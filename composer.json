@@ -13,13 +13,14 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Dteruel\\": "src/"
+      "Dteruel\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Dteruel\\": "tests/"
-    }
+      "Dteruel\\": "tests"
+    },
+    "files": ["tests/helpers.php"]
   },
   "require": {
     "php": ">=7.0"
