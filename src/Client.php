@@ -11,5 +11,10 @@ namespace Dteruel;
  */
 interface Client
 {
-
+    /**
+     * @param string $message
+     * @param string $to
+     * Send a single SMS Message
+     */
+    public function sendSms(string $message, string $to);
 }
