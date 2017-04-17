@@ -1,6 +1,6 @@
 ## Enviar mensagem SMS pelo provedor TotalVoice Telecom
 
-Para enviar uma mensagem de SMS você precisará do **access_token** da sua conta na TotalVoice.
+Para enviar uma mensagem de SMS você precisará do **access_token** da sua conta na TotalVoice (https://api.totalvoice.com.br/doc/).
 
 Exemplo:
 
