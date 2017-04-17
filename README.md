@@ -1,4 +1,4 @@
-## Enviar mensagem SMS pele provedor TotalVoice Telecom
+## Enviar mensagem SMS pelo provedor TotalVoice Telecom
 
 Para enviar uma mensagem de SMS você precisará do **access_token** da sua conta na TotalVoice.
 
