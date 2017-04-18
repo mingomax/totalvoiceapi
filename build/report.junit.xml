@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Dteruel TotalVoice API Test Suite" tests="4" assertions="6" errors="0" failures="0" skipped="0" time="0.617414">
-    <testsuite name="Dteruel\Clients\TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" tests="4" assertions="6" errors="0" failures="0" skipped="0" time="0.617414">
-      <testcase name="shouldInstantiateANewClient" class="Dteruel\Clients\TotalVoiceTest" classname="Dteruel.Clients.TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" line="36" assertions="1" time="0.002868"/>
-      <testcase name="shouldSendASMSMessage" class="Dteruel\Clients\TotalVoiceTest" classname="Dteruel.Clients.TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" line="55" assertions="1" time="0.610075"/>
-      <testcase name="shouldRaiseAnExceptionWhenTheMessageIsShort" class="Dteruel\Clients\TotalVoiceTest" classname="Dteruel.Clients.TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" line="68" assertions="2" time="0.002853"/>
-      <testcase name="shouldRaiseAnExceptionWhenThePhoneNumerIsInvalid" class="Dteruel\Clients\TotalVoiceTest" classname="Dteruel.Clients.TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" line="80" assertions="2" time="0.001618"/>
+  <testsuite name="Dteruel TotalVoice API Test Suite" tests="4" assertions="6" errors="0" failures="0" skipped="0" time="0.142687">
+    <testsuite name="Dteruel\Clients\TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" tests="4" assertions="6" errors="0" failures="0" skipped="0" time="0.142687">
+      <testcase name="shouldInstantiateANewClient" class="Dteruel\Clients\TotalVoiceTest" classname="Dteruel.Clients.TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" line="36" assertions="1" time="0.004033"/>
+      <testcase name="shouldSendASMSMessage" class="Dteruel\Clients\TotalVoiceTest" classname="Dteruel.Clients.TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" line="55" assertions="1" time="0.126998"/>
+      <testcase name="shouldRaiseAnExceptionWhenTheMessageIsShort" class="Dteruel\Clients\TotalVoiceTest" classname="Dteruel.Clients.TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" line="68" assertions="2" time="0.009579"/>
+      <testcase name="shouldRaiseAnExceptionWhenThePhoneNumerIsInvalid" class="Dteruel\Clients\TotalVoiceTest" classname="Dteruel.Clients.TotalVoiceTest" file="/Users/dteruel/Workspace/Tests/TotalVoice/tests/Clients/TotalVoiceTest.php" line="80" assertions="2" time="0.002077"/>
     </testsuite>
   </testsuite>
 </testsuites>

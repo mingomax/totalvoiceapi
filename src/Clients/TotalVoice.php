@@ -142,7 +142,7 @@ class TotalVoice implements Client
 
         $request = "$method $path HTTP/1.1\r\n";
         $request .= "Content-Type: application/json\r\n";
-        $request .= "Access-Token: 288d34719e3013e77136311eccb01068\r\n";
+        $request .= "Access-Token: {$this->authorization}\r\n";
         $request .= "Accept: application/json\r\n";
         $request .= "Host: {$this->apiUrl}\r\n";
         $request .= "Connection: close\r\n";
